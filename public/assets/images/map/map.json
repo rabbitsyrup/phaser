@@ -4,11 +4,11 @@
  "layers":[
         {
          "data":[6, 6, 6, 6, 6, 6, 6, 6, 6, 6,
-            6, 5, 7, 0, 0, 0, 0, 0, 0, 6,
-            6, 0, 7, 0, 0, 0, 0, 0, 4, 6,
+            6, 0, 0, 0, 0, 0, 0, 0, 0, 6,
+            6, 0, 0, 0, 0, 0, 0, 0, 0, 6,
             6, 6, 6, 0, 0, 0, 0, 0, 6, 6,
             6, 0, 0, 0, 0, 6, 0, 0, 0, 6,
-            6, 0, 0, 0, 0, 6, 14, 15, 16, 6,
+            6, 0, 0, 0, 0, 6, 0, 0, 0, 6,
             6, 6, 6, 0, 0, 0, 0, 0, 0, 6,
             6, 0, 0, 0, 6, 6, 6, 6, 6, 6,
             6, 0, 0, 0, 0, 0, 0, 0, 0, 6,
@@ -31,14 +31,98 @@
                 {
                  "height":0,
                  "id":1,
-                 "name":"Spawn Point",
+                 "name":"hero",
                  "point":true,
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":119.519,
-                 "y":140.386005540166
+                 "x":120,
+                 "y":136
+                }, 
+                {
+                 "height":0,
+                 "id":10,
+                 "name":"switch",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":136,
+                 "y":39
+                }, 
+                {
+                 "height":0,
+                 "id":13,
+                 "name":"snowball",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":88,
+                 "y":42
+                }, 
+                {
+                 "height":0,
+                 "id":14,
+                 "name":"heart",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":24,
+                 "y":26
+                }, 
+                {
+                 "height":0,
+                 "id":15,
+                 "name":"wall",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":40,
+                 "y":40
+                }, 
+                {
+                 "height":0,
+                 "id":16,
+                 "name":"laser1",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":104,
+                 "y":85
+                }, 
+                {
+                 "height":0,
+                 "id":17,
+                 "name":"laser2",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":120,
+                 "y":85
+                }, 
+                {
+                 "height":0,
+                 "id":18,
+                 "name":"laser3",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":136,
+                 "y":85
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -46,8 +130,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":4,
- "nextobjectid":4,
+ "nextlayerid":8,
+ "nextobjectid":19,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.1",
@@ -107,7 +191,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
